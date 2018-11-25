@@ -47,9 +47,9 @@ Page({
       direction = "top";
     }
   },
-  stop: function (e) {
+  /*stop: function (e) {
    stopp();
-  },
+  },*/
   onReady: function() {
     var that=this;
     var context = wx.createContext();
@@ -62,7 +62,7 @@ Page({
       context.closePath();
       context.fill();
     }
-    function stopp(){
+   /* function stopp(){
       game = false;
       wx.showModal({
         title: 'STOPING,WHETHER TO CANCEL?',
@@ -79,7 +79,7 @@ Page({
       })
     }
 
-
+*/
 
     //碰撞函数
     function conflict(obj1, obj2) {
